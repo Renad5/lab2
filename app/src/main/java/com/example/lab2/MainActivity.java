@@ -21,7 +21,7 @@ public class MainActivity extends AppCompatActivity {
         send_text = findViewById(R.id.send_text_id);
         receiver_msg = (TextView) findViewById(R.id.received_value_id);
 
-
+/////
         send_button.setOnClickListener(v -> {
 
             String str = send_text.getText().toString();
